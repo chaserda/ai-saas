@@ -30,7 +30,13 @@ You will need to populate the following environment variables in your .env file 
 
 ## Setup your PrismaDB
 
+The Prisma Schema is already established so in order to properly use it, run the following commands ( Make sure your PlanetScale DB is setup before running this step )
+- `npm i @prisma/client`
+- `npx prisma db push`
+- `npx prisma generate`
 
+You can access a local Prima client by running
+- `npx prisma studio`
 
 ## Now start up your app!
 
