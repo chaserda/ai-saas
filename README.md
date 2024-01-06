@@ -25,7 +25,7 @@ You will need to populate the following environment variables in your .env file 
 - Clerk.js keys will be `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY`
 - Planetscale will be your `DATABASE_URL`
 - Your OpenAI API Key will be `OPENAI_API_KEY`
-- You will also need a environment variable `NEXT_PUBLIC_APP_URL=http://localhost:3000` or the endpoint your Next.js is served on
+- You will also need a environment variable `NEXT_PUBLIC_APP_URL=http://localhost:3000` or the endpoint your Next.js app is served on
 - Lastly, you will need the following environment variables for Clerk:
   - `NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in`
   - `NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up`
