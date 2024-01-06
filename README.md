@@ -34,7 +34,8 @@ You will need to populate the following environment variables in your .env file 
 
 ## Setup your PrismaDB
 
-The Prisma Schema is already established so in order to properly use it, run the following commands ( Make sure your PlanetScale DB is setup before running this step )
+The Prisma Schema is already established so in order to properly use it, run the following commands 
+- IMPORTANT: Make sure your PlanetScale DB is setup before running this step 
 - `npm i @prisma/client`
 - `npx prisma db push`
 - `npx prisma generate`
