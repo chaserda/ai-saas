@@ -11,7 +11,11 @@ You will need accounts from the following
 - Stripe
 - Clerk.js
 - OpenAI
-- Planetscale
+- PlanetScale
+
+## Creating your PlanetScale account
+
+You only need to run a free tier server for this application to work, however, you can pay for a higher tier if you would like.
 
 ## Update your environment variables
 
@@ -35,7 +39,7 @@ The Prisma Schema is already established so in order to properly use it, run the
 - `npx prisma db push`
 - `npx prisma generate`
 
-You can access a local Prima client by running
+You can access a local Prisma client by running
 - `npx prisma studio`
 
 ## Now start up your app!
