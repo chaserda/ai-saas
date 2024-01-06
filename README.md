@@ -42,7 +42,16 @@ The Prisma Schema is already established so in order to properly use it, run the
 You can access a local Prisma client by running
 - `npx prisma studio`
 
-## Now start up your app!
+## Setup your Stripe Webhook
+
+In order for the PlanetScale to sync with Stripe profiles, you will need to setup your Stripe Webhook. Go to Stripe > Dashboard > Developers > WebHooks
+
+- You will then need to `Add Endpoint`
+- Click `Test in local environment` and run the prompted commands
+- After these commands are completed you will be presented a Webhook Key. Put this key in your .env file under `STRIPE_WEBHOOK_SECRET`
+- IMPORTANT: You will need to run this listener every time you start up your application.
+
+## Now start up your app in a new terminal!
 
 `npm run dev`
 
